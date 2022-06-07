@@ -1,0 +1,83 @@
+* {
+    font-family: Cambria, serif;
+}
+
+a {
+    color: #C66F6F;
+}
+
+a:hover {
+    color: #8CBDCA;
+}
+
+.header {
+    background-color: #1e73be;
+}
+
+table {
+    width: 100%;
+}
+
+.fa-facebook, .fa-twitter, .fa-youtube {
+    float: right;
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+}
+
+.container-fluid {
+    background-color: #224691;
+}
+
+.navbar-brand {
+    margin-left: 20px;
+}
+
+.navbar-collapse {
+    color: white;
+}
+
+.navbar-nav {
+    color: white;
+}
+
+ul {
+    color: white;
+}
+
+.boxes {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: 20px;
+}
+
+
+.a, .b, .c {
+    width: 32%;
+    height: 200px;
+    font-family: Cambria, serif;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 27px;
+}
+
+.a a, .b a, .c > a {
+    font-size: 10px;
+    text-decoration: none;
+    margin: 200px 50px;
+    padding: 15px 30px;
+    border-radius: 3px;
+}
+
+.a a:hover, .b a:hover, .c > a:hover {
+    text-decoration: none;
+    color: white;
+    background-color: #C66F6F;
+}
+
+.info {
+    background: url("images/e.png") fixed;
+}
+
+/*External Css End*/
